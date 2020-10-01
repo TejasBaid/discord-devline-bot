@@ -17,21 +17,15 @@ router.post('/create',[
     if(!errors.isEmpty()){
         return res.status(400).json({errors:errors})
     }
-    try {
-        const {title,description,skillset} = req.body
-        const job = new db.Job({
-            title,
-            description,
-            skillset,
-            channel: {},
-            isPaid:false,
-        })
-        await job.save()
-        return res.status(200).json(job)
-    } catch (err) {
-        console.error(err)
-        return res.status(500).send("Server Error")
-    }
+    const {title,description,skillset} = req.body
+    const job = new db.Job({
+        title,
+        description,
+        skillset,
+        channel: {},
+        isPaid:false,
+    })
+    await job.save()
 })
 
 

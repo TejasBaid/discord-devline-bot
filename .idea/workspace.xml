@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1c27e586-d5f4-4a7f-8ee9-e95d7cae15b9" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="1c27e586-d5f4-4a7f-8ee9-e95d7cae15b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+>>>>>>> parent of 8ee4800... Added create response
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +38,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601530840766</updated>
+<<<<<<< HEAD
       <workItem from="1601530845215" duration="2248000" />
+=======
+      <workItem from="1601530845215" duration="1773000" />
+>>>>>>> parent of 8ee4800... Added create response
     </task>
     <servers />
   </component>
