@@ -4,6 +4,9 @@ const express = require('express')
 const PORT = process.env.PORT || 5000
 const app = express()
 const fs = require('fs')
+var cors = require('cors')
+
+app.use(cors())
 
 // Create a Discord.Client() instance.
 const client = new Discord.Client()
